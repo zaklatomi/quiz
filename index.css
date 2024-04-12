@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('hatter.jpg');
+    background-size: cover;
+    
+}
+label {
+    display: block;
+    margin: .25rem;
+    padding: .25rem;
+    font-size: 24pt;
+}
+input[type="checkbox"] {
+    transform: scale(2);
+}
+.done{
+    display: none;
+}
+.doneTrue{
+    display: block;
+}
+button{
+    margin: 1rem;
+}
+button{
+    padding: 1rem;
+    width: 100px;
+    border: solid 3px black;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18pt;
+    
+}
+button:hover{
+    background-color: orange;
+    color:whitesmoke;
+}
+.prev:hover{
+    background-color: red;
+    color:whitesmoke;
+}
+.next:hover{
+    background-color: green;
+    color:whitesmoke;
+}
+p{
+    font-size: 24pt;
+
+}
+.zold{
+    color:rgb(53, 184, 53);
+}
+.piros{
+    color: red;
+}
